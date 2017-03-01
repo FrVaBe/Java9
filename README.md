@@ -9,7 +9,11 @@ Work in progress...
   * [JDK 9](http://openjdk.java.net/projects/jdk9/) project page
   * [JSR 379](http://openjdk.java.net/projects/jdk9/spec/), the Platform Umbrella JSR for Java SE 9
 * Community
-  * Java9 talk (Nicolai Parlog) #VDZ17 - [Java 9 Os Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/)
+  * Nicolai Parlog
+    * [Java 9 Is Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/) (talk at #VDZ17)
+    * [Java 9 Additions To Optional](http://blog.codefx.org/java/dev/java-9-optional/)
+  * Stephen Colebourne: [Java Time (JSR-310) enhancements in Java SE 9](http://blog.joda.org/2017/02/java-time-jsr-310-enhancements-java-9.html)
+
 
 ## Special features of personal interest
 * [JEP 261](http://openjdk.java.net/jeps/261): Module System
