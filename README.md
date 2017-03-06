@@ -19,7 +19,8 @@ Work in progress...
 
 
 ## Special features of personal interest
-* [JEP 261](http://openjdk.java.net/jeps/261): Module System
-  * Mark Reinhold: [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/)
+* [JEP 223](http://openjdk.java.net/jeps/223): New Version-String Scheme
 * [JEP 238](http://openjdk.java.net/jeps/238): Multi-Release JAR Files
   * Hibernate Blog: [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)
+* [JEP 261](http://openjdk.java.net/jeps/261): Module System
+  * Mark Reinhold: [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/)
