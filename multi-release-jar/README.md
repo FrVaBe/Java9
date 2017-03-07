@@ -3,8 +3,10 @@
 Java 9 offers the possibility to build a JAR file with a format that _"allows multiple, Java-release-specific versions of class files to coexist in a single archive"_ ([JEP 238](http://openjdk.java.net/jeps/238): Multi-Release JAR Files).
 
 This is a little sample project that demonstrates how to build such a jar file with Maven. The sample is strongly influenced by the following posts
-* [Gunnar Morling](https://twitter.com/gunnarmorling): [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)
-* [David M. Lloyd](https://twitter.com/dmlloyd0): [Generating Multi-Release JARs with Maven](http://word-bits.flurg.com/multrelease-jars/)
+* [Gunnar Morling](https://twitter.com/gunnarmorling): [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)  
+  (solution with Java < 9 and Java 9 code in one artifact)
+* [David M. Lloyd](https://twitter.com/dmlloyd0): [Generating Multi-Release JARs with Maven](http://word-bits.flurg.com/multrelease-jars/)  
+  (solution with Java 9 code in a separated artifact; like discussed here)
 
 ## Multi-Release Jar Format
 
@@ -151,3 +153,9 @@ Whereas in a **Java 9** environment the output is
 ...\multi-release-jar>java -cp target\multi-release-jar-0.0.1-SNAPSHOT.jar de.frvabe.java9.mrjar.HelloWorld
 Hello World - Java 9!
 ```
+
+## Known Issues
+
+In this solution the Java 9 code is separated to an own artifact. The Multi-Release jar depends on this artifact. Therefore the Java 9 code **must not** depend on any parts of the general code provided inside the Multi-Release jar.
+
+If you can not manage to separate (or better isolate) your Java 9 code you probably need to place it inside your regular jar file. Have a look at the solution worked out by Gunnar Morling  in [this](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/) post.
