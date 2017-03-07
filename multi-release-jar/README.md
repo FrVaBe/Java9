@@ -59,7 +59,7 @@ That is the artifact where the Java 9 specific Java Code ([HelloWorld.java](mult
 
 This is the artifact that becomes a Multi Release Jar. The code in this project ([HelloWorld.java](multi-release-jar/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java)) will be compiled using Java 8 (see the settings in the [parent pom.xml](multi-release-jar-parent/pom.xml)).
 
-But in addition the following steps are made to make it a Multi Release Jar.
+But in addition the following steps are made in the projects [pom.xml](multi-release-jar/pom.xml) to make it a Multi Release Jar.
 
 **(1) add the _Multi-Release_ attribute to the MANIFEST.MF (maven-jar-plugin)**
 
