@@ -16,6 +16,8 @@ Work in progress...
   * Nicolai Parlog
     * [Java 9 Is Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/) (talk at #VDZ17)
     * [Java 9 Additions To Optional](http://blog.codefx.org/java/dev/java-9-optional/)
+  * Venkat Subramaniam
+    * Devoxx BE 2016 interview about [Java 9 with Venkat Subramaniam](https://www.youtube.com/watch?v=OjJBau4ZNyA)
 
 
 ## Special features of personal interest
