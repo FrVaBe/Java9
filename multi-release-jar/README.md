@@ -12,7 +12,7 @@ What makes a Jar file a _Multi Jar file_? There are basically two things
 * a MANIFEST.MF entry `Multi-Release: true`
 * version specific source code in the META-INF directory
 
-In the example provided here there is a `HelloWorld` class that comes with an [Java 8](multi-release-jar/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java) and [Java 9](multi-release-jar-java9/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java) flavour. The final jar file content looks like this:
+In the example provided here there is a `HelloWorld` class that comes with a [Java 8](multi-release-jar/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java) and [Java 9](multi-release-jar-java9/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java) flavour. The final jar file content looks like this:
 
 ```
 C:.
