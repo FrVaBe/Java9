@@ -1,4 +1,4 @@
-# Java 9 - Multi Release Jar Example
+# Java 9 - Multi-Release Jar Example
 
 Java 9 offers the possibility to build a JAR file with a format that _"allows multiple, Java-release-specific versions of class files to coexist in a single archive"_ ([JEP 238](http://openjdk.java.net/jeps/238): Multi-Release JAR Files).
 
