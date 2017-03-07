@@ -6,7 +6,7 @@ This is a little sample project that demonstrates how to build such a jar file w
 * [Gunnar Morling](https://twitter.com/gunnarmorling): [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)
 * [David M. Lloyd](https://twitter.com/dmlloyd0): [Generating Multi-Release JARs with Maven](http://word-bits.flurg.com/multrelease-jars/)
 
-## Multi Release Jar Format
+## Multi-Release Jar Format
 
 What makes a Jar file a _Multi Jar file_? There are basically two things
 * a MANIFEST.MF entry `Multi-Release: true`
@@ -57,7 +57,7 @@ That is the artifact where the Java 9 specific Java Code ([HelloWorld.java](mult
 
 ### multi-release-jar (needs to be build last)
 
-This is the artifact that becomes a Multi Release Jar. The code in this project ([HelloWorld.java](multi-release-jar/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java)) will be compiled using Java 8 (see the settings in the [parent pom.xml](multi-release-jar-parent/pom.xml)).
+This is the artifact that becomes a Multi-Release Jar. The code in this project ([HelloWorld.java](multi-release-jar/src/main/java/de/frvabe/java9/mrjar/HelloWorld.java)) will be compiled using Java 8 (see the settings in the [parent pom.xml](multi-release-jar-parent/pom.xml)).
 
 But in addition the following steps are made in the projects [pom.xml](multi-release-jar/pom.xml) to make it a Multi Release Jar.
 
@@ -136,7 +136,7 @@ The copied Java 9 classes need to be added as resources to the build. Otherwise 
 
 ## Finally
 
-That's all. The Multi Module Jar file is ready.
+That's all. The Multi-Release Jar file is ready.
 
 The execution result in a **Java 8** environment will be
 
