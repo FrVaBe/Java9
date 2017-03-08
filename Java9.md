@@ -8,6 +8,7 @@ Work in progress...
 * Official
   * [JDK 9](http://openjdk.java.net/projects/jdk9/) project page
   * [JSR 379](http://openjdk.java.net/projects/jdk9/spec/), the Platform Umbrella JSR for Java SE 9
+
 * Community
   * Eugen Baeldung
     * [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
@@ -19,10 +20,14 @@ Work in progress...
   * Venkat Subramaniam
     * Devoxx BE 2016 interview about [Java 9 with Venkat Subramaniam](https://www.youtube.com/watch?v=OjJBau4ZNyA)
 
-
 ## Special features of personal interest
 * [JEP 223](http://openjdk.java.net/jeps/223): New Version-String Scheme
 * [JEP 238](http://openjdk.java.net/jeps/238): Multi-Release JAR Files
   * Hibernate Blog: [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)
 * [JEP 261](http://openjdk.java.net/jeps/261): Module System
   * Mark Reinhold: [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/)
+
+## Tools
+
+* [ModiTect](https://github.com/moditect/moditect) - Tooling for the Java 9 Module System  
+  > The ModiTect project aims at providing productivity tools for working with the Java 9 module system ("Jigsaw"). Currently it allows to add module descriptors to existing JAR files. In future versions functionality may be added to work with tools like jlink, jdeps or jmod under Maven and other dependency management tools in a comfortable manner.
