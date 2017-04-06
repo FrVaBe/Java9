@@ -18,8 +18,13 @@ Work in progress...
   * [Nicolai Parlog](https://twitter.com/nipafx)
     * [Java 9 Is Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/) (talk at #VDZ17)
     * [Java 9 Additions To Optional](http://blog.codefx.org/java/dev/java-9-optional/)
+  * **[Mark.Reinhold](https://twitter.com/mreinhold)**
+    * [Alternatives for naming automatic modules (#AutomaticModuleNames)](http://mail.openjdk.java.net/pipermail/jpms-spec-experts/2017-April/000666.html)
+    * [Proposal: #AutomaticModuleNames](http://mail.openjdk.java.net/pipermail/jpms-spec-experts/2017-April/000667.html)
   * [Arnaud Roger](https://twitter.com/arnaudroger)
     * [Deep Dive into Java 9’s Stack-Walking API](https://www.sitepoint.com/deep-dive-into-java-9s-stack-walking-api/)
+  * [Robert Scholte](https://twitter.com/rfscholte)
+    * [Why Maven Cannot Generate Your Module Declaration](https://www.sitepoint.com/maven-cannot-generate-module-declaration/)
   * [Venkat Subramaniam](https://twitter.com/venkat_s)
     * Devoxx BE 2016 interview about [Java 9 with Venkat Subramaniam](https://www.youtube.com/watch?v=OjJBau4ZNyA)
 
