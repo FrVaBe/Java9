@@ -15,6 +15,8 @@ Work in progress...
     * [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
   * [Stephen Colebourne](https://twitter.com/jodastephen)
     * [Java Time (JSR-310) enhancements in Java SE 9](http://blog.joda.org/2017/02/java-time-jsr-310-enhancements-java-9.html)
+    * [Java 9 modules - JPMS basics ](http://blog.joda.org/2017/04/java-9-modules-jpms-basics.html)
+    * [Java SE 9 - JPMS modules are not artifacts ](http://blog.joda.org/2017/04/java-se-9-jpms-modules-are-not-artifacts.html)
   * [Nicolai Parlog](https://twitter.com/nipafx)
     * [Java 9 Is Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/) (talk at #VDZ17)
     * [Java 9 Additions To Optional](http://blog.codefx.org/java/dev/java-9-optional/)
