@@ -11,8 +11,8 @@ Work in progress...
 
 
 * Community
-  * 2017-03-01: [Eugen Baeldung](https://twitter.com/baeldung)
-    * [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
+  * [Eugen Baeldung](https://twitter.com/baeldung)
+    * 2017-03-01: [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
   * [Stephen Colebourne](https://twitter.com/jodastephen)
     * 2017-02-07: [Java Time (JSR-310) enhancements in Java SE 9](http://blog.joda.org/2017/02/java-time-jsr-310-enhancements-java-9.html)
     * 2017-04-17: [Java 9 modules - JPMS basics ](http://blog.joda.org/2017/04/java-9-modules-jpms-basics.html)
