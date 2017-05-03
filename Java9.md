@@ -8,6 +8,7 @@ Work in progress...
 * Official
   * [JDK 9](http://openjdk.java.net/projects/jdk9/) project page
   * [JSR 379](http://openjdk.java.net/projects/jdk9/spec/), the Platform Umbrella JSR for Java SE 9
+  * [OpenJDK - Java Platform Module System: Issue Summary](http://openjdk.java.net/projects/jigsaw/spec/issues/)
 
 
 * Community
@@ -20,7 +21,8 @@ Work in progress...
   * [Nicolai Parlog](https://twitter.com/nipafx)
     * [Java 9 Is Coming!](http://slides.codefx.org/java-9/2017-02-23-voxxed-days-zuerich/index.html#/) (talk at #VDZ17)
     * 2016-06-26: [Java 9 Additions To Optional](http://blog.codefx.org/java/dev/java-9-optional/)
-  * **[Mark.Reinhold](https://twitter.com/mreinhold)**
+  * **[Mark Reinhold](https://twitter.com/mreinhold)**
+    * 2016-08-03: [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/)
     * 2017-02-16: [How to name modules, automatic and otherwise](http://mail.openjdk.java.net/pipermail/jpms-spec-experts/2017-February/000582.html)
     * 2017-04-03: [Alternatives for naming automatic modules (#AutomaticModuleNames)](http://mail.openjdk.java.net/pipermail/jpms-spec-experts/2017-April/000666.html)
     * 2017-04-03: [Proposal: #AutomaticModuleNames](http://mail.openjdk.java.net/pipermail/jpms-spec-experts/2017-April/000667.html)
@@ -36,9 +38,14 @@ Work in progress...
 * [JEP 238](http://openjdk.java.net/jeps/238): Multi-Release JAR Files
   * Hibernate Blog: [Building Multi-Release JARs with Maven](http://in.relation.to/2017/02/13/building-multi-release-jars-with-maven/)
 * [JEP 261](http://openjdk.java.net/jeps/261): Module System
-  * Mark Reinhold: [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/)
+  * see _Community_ posts of Mark Reinhold
 
 ## Tools
 
 * [ModiTect](https://github.com/moditect/moditect) - Tooling for the Java 9 Module System  
   > The ModiTect project aims at providing productivity tools for working with the Java 9 module system ("Jigsaw"). Currently it allows to add module descriptors to existing JAR files. In future versions functionality may be added to work with tools like jlink, jdeps or jmod under Maven and other dependency management tools in a comfortable manner.
+
+## Frameworks and Java 9 adoption
+* Spring Framework
+  * [SPR-14579 - Doc: Resource loading in all variants of Java 9 module layouts](https://jira.spring.io/browse/SPR-14579)<br/>([Spring Framework likely not to ship module descriptors until 2019+, due to "latest discussions around #Jigsaw...](https://jira.spring.io/browse/SPR-14579))
+  * [SPR-13501 - Declare Spring modules with JDK 9 module metadata](https://jira.spring.io/browse/SPR-13501)
