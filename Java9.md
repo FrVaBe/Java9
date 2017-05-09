@@ -13,7 +13,7 @@ Work in progress...
 
 * Community
   * [Mahmoud Anouti](https://twitter.com/mma113)
-    * 2017-05-03: [Java 9 Besides Modules](https://mahmoudanouti.wordpress.com/2017/05/03/java-9-besides-modules/)
+    * 2017-05-03: [Java 9 Besides Modules](https://mahmoudanouti.wordpress.com/2017/05/03/java-9-besides-modules/) (or at DZone [here](https://dzone.com/articles/java-9-besides-modules))
   * [Eugen Baeldung](https://twitter.com/baeldung)
     * 2017-03-01: [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
   * [Stephen Colebourne](https://twitter.com/jodastephen)
@@ -31,7 +31,7 @@ Work in progress...
   * [Arnaud Roger](https://twitter.com/arnaudroger)
     * 2017-03-06: [Deep Dive into Java 9’s Stack-Walking API](https://www.sitepoint.com/deep-dive-into-java-9s-stack-walking-api/)
   * [Robert Scholte](https://twitter.com/rfscholte)
-    * 201-04-03: [Why Maven Cannot Generate Your Module Declaration](https://www.sitepoint.com/maven-cannot-generate-module-declaration/)
+    * 2017-04-03: [Why Maven Cannot Generate Your Module Declaration](https://www.sitepoint.com/maven-cannot-generate-module-declaration/)
   * [Venkat Subramaniam](https://twitter.com/venkat_s)
     * 2016-12-09: Devoxx BE 2016 interview about [Java 9 with Venkat Subramaniam](https://www.youtube.com/watch?v=OjJBau4ZNyA)
 
