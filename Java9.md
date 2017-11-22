@@ -12,7 +12,7 @@ Work in progress...
 
 
 * Community
-  * [Mahmoud Anouti](https://twitter.com/mma113)
+  * [Mahmoud Anouti](https://twitter.com/MahmoudAnouti)
     * 2017-05-03: [Java 9 Besides Modules](https://mahmoudanouti.wordpress.com/2017/05/03/java-9-besides-modules/) (or at DZone [here](https://dzone.com/articles/java-9-besides-modules))
   * [Eugen Baeldung](https://twitter.com/baeldung)
     * 2017-03-01: [Java 9 Process API (Improvements)](http://www.baeldung.com/java-9-process-api)
